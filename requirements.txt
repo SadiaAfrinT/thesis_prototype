@@ -1,3 +1,27 @@
 numpy
 pandas
 jsonlines
+
+# Core ML (Colab includes CUDA-ready PyTorch, do NOT reinstall torch here)
+transformers==4.36.2
+accelerate>=0.24.0
+tokenizers>=0.14.0
+sentencepiece
+peft>=0.7.0
+
+# For datasets + JSON handling
+datasets
+jsonlines
+numpy
+pandas
+
+# Training utilities
+tqdm
+scikit-learn
+PyYAML
+
+# Optional: 8-bit model loading (works in Colab)
+bitsandbytes>=0.41.1
+
+# Logging
+tensorboard
